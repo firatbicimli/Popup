@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share-popup {
+    width: 808px;
+    padding: 55px 78px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.share-popup h4 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #242E4C;
+    margin-bottom: 40px;
+}
+
+ul {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+ul li {
+    flex: 1;
+    text-align: center;
+}
+
+ul li a {
+    display: inline-block;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+}
+
+ul li a i {
+   font-size: 40px;
+}
+
+.fa-pinterest {
+    color: red;
+}
+
+.fa-twitter {
+    color: rgb(37, 37, 247);
+}
+
+.fa-facebook {
+    color: rgb(7, 7, 104);
+}
+
+.fa-tumblr {
+    color: #242E4C;
+}
+
+.fa-linkedin {
+    color: #2c3962;
+}
+
+.share-popup h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #242E4C;
+    margin-bottom: 10px;
+}
+
+.input {
+    position: relative;
+}
+
+.input button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 57px;
+    padding: 0 20px;
+    line-height: 57px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #900e5a;
+    background: transparent;
+    cursor: pointer;
+}
+
+.input input {
+    height: 57px;
+    
+    border-radius: 5px;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #242E4C;
+}
+
+
+
+
+
